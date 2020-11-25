@@ -1,0 +1,270 @@
+body{
+    background: url("Images/Background2.jpg") no-repeat scroll ;
+    background-position: top;
+    background-size: cover;
+    }
+
+
+
+nav{
+    margin-top: 2%;
+}
+
+
+ul {
+    font-size: 150%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#00000069;
+
+
+  }
+
+.logo{
+  width:5%;
+  height:5%;
+  float: left;
+  padding:0.5% 0.5% 0.5% 0.5%;
+}
+ul img{
+    margin-top: 0.2%;
+    padding-left: 3%;
+    float: right;
+    width: 3%;
+    height: 3%;
+    padding:0.5% 0.5% 0.5% 0.5%;
+    }
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3% 16px;
+    text-decoration: none;
+
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+
+.footbar{
+
+    max-width: 100%;
+    min-width: 0px;
+    min-height: 0px;
+    background-color:#00000069;
+    font-style:italic;
+    font-weight: 50%;
+    padding: 1% 5% 1% 5%;
+    white-space:nowrap;
+    color:white;
+    font-size: 80%;
+
+}
+
+.millieux{
+    background-color: rgba(255, 255, 255, 0.61);
+    color: white;
+    text-align:center;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 18%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: double;
+    border-bottom: double;
+    border-width: 10px;
+    text-shadow: 0.1em 0.1em #333;
+
+
+}
+
+.Titre{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 500%;
+    text-shadow: 0.05em 0.05em #333;
+}
+
+
+
+.reseaux{
+    float: right;
+}
+
+.AproposMiddle{
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+    text-align:left;
+    height: 50%;
+    margin: 0% 25% 0% 25%;
+    padding: 0.1% 2% 1% 1%;
+    line-height: 115%;
+    border-width: 10px;
+
+
+}
+
+
+
+
+
+h2{
+  font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+
+}
+
+
+
+.Horaires{
+border: solid;
+padding-right: 2%;
+}
+.Horaires td{
+  border:solid;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(68, 68, 68, 0.342);
+}
+
+div img{
+  padding-left: 2.5%;
+}
+
+.desctarifs{
+  margin-right: 55%;
+  line-height: 90%;
+  font-size: 90%;
+}
+
+
+
+.contcart{
+  display: flex;
+  justify-content: center;
+}
+
+.logoftbr{
+  height:5%;
+  width: 5%;
+}
+.lois {
+  float: right;
+}
+
+
+@media screen and (max-aspect-ratio: 860/644) {
+  body{
+  background: url("Images/Background.jpg") no-repeat scroll ;
+  background-position: top;
+  background-size: cover;
+  }
+
+  ul {
+    font-size: 500%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#00000069;
+  }
+
+  li a {
+    padding:  20px 20px 2px 0;
+  }
+
+  ul img{
+    margin-top: 0.2%;
+    padding-left: 3%;
+    float: left;
+    width: 7%;
+    height: 7%;
+    padding-bottom: 3%;
+    margin-right: 7%;
+    margin-left:5%;
+    }
+
+  .millieux{
+    background-color:transparent;
+    color: white;
+    text-align:center;
+    font-size: 200%;
+    border-top: double;
+    border-bottom: double;
+    border-width: 10px;
+    text-shadow: 0.1em 0.1em #333;
+    height:15%;
+}
+
+li {
+  float: right;
+}
+ul img{
+  float: left;
+  }
+.logo{
+    width:30%;
+    height:30%;
+    margin: 5% 5% 2% 5%;
+  }
+  .footbar{
+
+    max-width: 100%;
+    margin: 5% 5% 5% 5%;
+    background-color:#00000069;
+    font-style:italic;
+    padding: 1% 5% 1% 5%;
+    color:white;
+    font-size: 230%;
+    bottom:0;
+    position: absolute;
+    height: 10%;
+    white-space: normal;
+  }
+  .footbartrf{
+
+    max-width: 100%;
+    margin: 5% 5% 5% 5%;
+    background-color:#00000069;
+    font-style:italic;
+    padding: 1% 5% 1% 5%;
+    color:white;
+    font-size: 230%;
+    bottom:0;
+    position: absolute;
+    height: 10%;
+    white-space: normal;
+
+
+}
+.logoftbr{
+  height:75%;
+  width: auto;
+  float: left;
+  margin-right: 5%;
+}
+
+.AproposMiddle{
+  background-color: rgba(255, 255, 255, 0.61);
+  color: black;
+  text-align:left;
+  height: 120%;
+  margin: 5% 8% 0% 8%;
+  padding: 0.1% 2% 1% 1%;
+  font-size: 180%;
+  border-width: 10px;
+  line-height: 115%;
+
+
+}
+.contcart{
+  margin-top:5%;
+}
+}

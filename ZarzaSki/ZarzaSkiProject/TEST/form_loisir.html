@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'insertion de loisir</title>
+</head>
+<body>
+    <h1>Formulaire d'insertion de loisir</h1>
+
+    <p>Insérer un nouveau loisir dans la base de donnéés</p>
+        
+    <form action="insertion_loisir.php" method="GET">
+        <input type="text" name="code_loisir" required> Code du loisir
+        <br>
+        <input type="text" name="lib_loisir" required> Libellé du loisir
+        <br>
+        <input type="reset" value="Effacez">
+        <input type="submit" name="submit" value="Insérez">
+    </form>
+
+</body>
+</html>
